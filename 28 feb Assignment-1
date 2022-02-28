@@ -1,0 +1,12 @@
+Write a Python program to find the odd occurrences in the given list. 
+Program:-
+x=[1,2,3,2,1,3,2,1,2,2,7,8]
+list=[]
+list1=[]
+for i in x:
+    if i not in list:
+        if x.count(i)%2!=0:
+            list.append(i)
+print(list)
+Output:-
+1, 2, 7, 8]
